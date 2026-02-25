@@ -120,7 +120,7 @@ const menuItems = [
 
 const Menu = () => {
   return (
-    <div className='mt-4 text-sm justify-center'>
+    <div className='mt-4 text-sm justify-center px-4'>
       {
         menuItems.map(each => (
           <div className='flex flex-col gap-3' key={each.title}>
