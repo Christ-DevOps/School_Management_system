@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Calendar from "react-calendar";
-import "react-calendar/dist/Calendar.css"; // Keep this, our CSS will override it
+import "react-calendar/dist/Calendar.css";
 import Image from "next/image";
 import { More } from "@/public";
 
@@ -24,6 +24,7 @@ const EventCalendar = () => {
           // These props help clean up the UI
           next2Label={null}
           prev2Label={null}
+          
         />
       </div>
 

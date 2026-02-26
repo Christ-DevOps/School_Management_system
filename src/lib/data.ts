@@ -918,146 +918,163 @@ export const announcementsData = [
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
+  // ==========================================
+  // MONDAY (August 12, 2024)
+  // ==========================================
   {
-    title: "Math",
+    title: "ORACLE",
+    teacher: "Dr. Michael Brown",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2024, 7, 12, 7, 30),
+    end: new Date(2024, 7, 12, 9, 30),
   },
   {
-    title: "English",
+    title: "SQL SERVER",
+    teacher: "Prof. Sarah Johnson",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2024, 7, 12, 9, 30),
+    end: new Date(2024, 7, 12, 11, 30),
   },
   {
-    title: "Biology",
+    title: "BIG DATA",
+    teacher: "Dr. Daniel Williams",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
-  },
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
+    start: new Date(2024, 7, 12, 12, 45),
     end: new Date(2024, 7, 12, 14, 45),
   },
   {
-    title: "English",
+    title: "ALGORITHM",
+    teacher: "Mr. James Anderson",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2024, 7, 12, 14, 45),
+    end: new Date(2024, 7, 12, 16, 45),
   },
 
+  // ==========================================
+  // TUESDAY (August 13, 2024)
+  // ==========================================
   {
-    title: "History",
+    title: "DIDS",
+    teacher: "Dr. Emily Davis",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
+    start: new Date(2024, 7, 13, 7, 30),
+    end: new Date(2024, 7, 13, 9, 30),
+  },
+  {
+    title: "DATA ANALYSIS",
+    teacher: "Prof. David Martinez",
+    allDay: false,
+    start: new Date(2024, 7, 13, 9, 30),
+    end: new Date(2024, 7, 13, 11, 30),
+  },
+  {
+    title: "CYBER SECURITY",
+    teacher: "Dr. Olivia Wilson",
+    allDay: false,
+    start: new Date(2024, 7, 13, 12, 45),
     end: new Date(2024, 7, 13, 14, 45),
   },
   {
-    title: "Math",
+    title: "DATABASE SECURITY",
+    teacher: "Mr. Christopher Moore",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
-  },
-  {
-    title: "Biology",
-    allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2024, 7, 13, 14, 45),
+    end: new Date(2024, 7, 13, 16, 45),
   },
 
+  // ==========================================
+  // WEDNESDAY (August 14, 2024)
+  // ==========================================
   {
-    title: "Chemistry",
+    title: "GIS",
+    teacher: "Prof. Sophia Taylor",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(2024, 7, 14, 7, 30),
+    end: new Date(2024, 7, 14, 9, 30),
   },
   {
-    title: "History",
+    title: "ISDM",
+    teacher: "Dr. Benjamin Thomas",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2024, 7, 14, 9, 30),
+    end: new Date(2024, 7, 14, 11, 30),
   },
   {
-    title: "English",
+    title: "ENTREPRENEURSHIP",
+    teacher: "Mrs. Grace Harris",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(2024, 7, 14, 12, 45),
+    end: new Date(2024, 7, 14, 14, 45),
   },
   {
-    title: "Biology",
+    title: "ORACLE",
+    teacher: "Dr. Michael Brown",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
-  },
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
+    start: new Date(2024, 7, 14, 14, 45),
+    end: new Date(2024, 7, 14, 16, 45),
   },
 
+  // ==========================================
+  // THURSDAY (August 15, 2024)
+  // ==========================================
   {
-    title: "History",
+    title: "ALGORITHM",
+    teacher: "Mr. James Anderson",
     allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
+    start: new Date(2024, 7, 15, 7, 30),
+    end: new Date(2024, 7, 15, 9, 30),
+  },
+  {
+    title: "BIG DATA",
+    teacher: "Dr. Daniel Williams",
+    allDay: false,
+    start: new Date(2024, 7, 15, 9, 30),
+    end: new Date(2024, 7, 15, 11, 30),
+  },
+  {
+    title: "CYBER SECURITY",
+    teacher: "Dr. Olivia Wilson",
+    allDay: false,
+    start: new Date(2024, 7, 15, 12, 45),
     end: new Date(2024, 7, 15, 14, 45),
   },
   {
-    title: "Math",
+    title: "SQL SERVER",
+    teacher: "Prof. Sarah Johnson",
     allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
+    start: new Date(2024, 7, 15, 14, 45),
+    end: new Date(2024, 7, 15, 16, 45),
   },
 
+  // ==========================================
+  // FRIDAY (August 16, 2024)
+  // ==========================================
   {
-    title: "Physics",
+    title: "DATA ANALYSIS",
+    teacher: "Prof. David Martinez",
     allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
+    start: new Date(2024, 7, 16, 7, 30),
+    end: new Date(2024, 7, 16, 9, 30),
   },
   {
-    title: "Chemistry",
+    title: "DATABASE SECURITY",
+    teacher: "Mr. Christopher Moore",
     allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2024, 7, 16, 9, 30),
+    end: new Date(2024, 7, 16, 11, 30),
   },
   {
-    title: "History",
+    title: "GIS",
+    teacher: "Prof. Sophia Taylor",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
+    start: new Date(2024, 7, 16, 12, 45),
     end: new Date(2024, 7, 16, 14, 45),
   },
-];
+  {
+    title: "ENTREPRENEURSHIP",
+    teacher: "Mrs. Grace Harris",
+    allDay: false,
+    start: new Date(2024, 7, 16, 14, 45),
+    end: new Date(2024, 7, 16, 16, 45),
+  },
+];  

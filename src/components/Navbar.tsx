@@ -4,7 +4,7 @@ import { Announcement, Search, Message } from '@/public'
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between p-4 bg-yellow shadow-sm'>
+    <div className='flex items-center justify-between p-4 shadow-xl'>
       
       {/* SEARCH BAR - Professional Container */}
       <div className='hidden md:flex items-center gap-2 text-xs rounded-full ring-[1.5px] ring-gray-300 px-3 py-2'>
@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* USER PROFILE */}
         <div className='flex items-center gap-3 ml-2'>
           <div className='flex flex-col gap-2 text-right'>
-            <span className='text-xl leading-3 font-semibold'>Tangomo Christ Dominic </span>
+            <span className='text-xl leading-3 font-semibold'>Tangomo Christ </span>
             <span className='text-[14px] text-gray-500 capitalize'>Student</span>
           </div>
           {/* Avatar Placeholder - Professional apps usually have a circular image here */}

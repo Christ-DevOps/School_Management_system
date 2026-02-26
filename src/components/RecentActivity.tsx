@@ -30,7 +30,7 @@ const activities = [
 const RecentActivity = () => {
   return (
     <div className="bg-white dark:bg-slate-800 p-4 rounded-xl shadow-sm border border-slate-100 dark:border-slate-700">
-      <h1 className="text-xl font-semibold mb-6 dark:text-white">Recent Activity</h1>
+      <h1 className="text-xl font-semibold mb-6 dark:text-white">Recent Activities</h1>
       
       <div className="flex flex-col gap-6">
         {activities.map((activity) => (
