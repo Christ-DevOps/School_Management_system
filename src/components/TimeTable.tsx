@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import { Calendar, momentLocalizer, Views } from 'react-big-calendar';
+import React, { useState } from 'react';
+import { Calendar, momentLocalizer, View, Views } from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import { calendarEvents } from '../lib/data';
@@ -11,6 +11,12 @@ const localizer = momentLocalizer(moment);
 
 
 const TimetableCalendar = () => {
+
+  const [view, setView] = useState<View>(Views.WORK_WEEK);
+
+  const handleOnchangeView =(selectedView: View) => {
+    setView(selectedView);
+  }
   // 3. THE FIX: Force the calendar to open to the exact week of our mock data
   const targetDate = new Date(2024, 7, 12); // August 12, 2024
 
@@ -49,7 +55,7 @@ const TimetableCalendar = () => {
       <div className="flex-1 w-full h-full">
         <Calendar
           localizer={localizer}
-          events={calendarEvents   }
+          events={calendarEvents}
           startAccessor="start"
           endAccessor="end"
           defaultView={Views.WORK_WEEK}
@@ -64,27 +70,10 @@ const TimetableCalendar = () => {
             dayFormat: 'dddd', // Shows 'Monday' instead of 'Mon 12'
             timeGutterFormat: 'h:mm A', // 7:30 AM
           }}
+          style={{ height: "98%" }}
         />
       </div>
 
-      {/* Tailwind global overrides for calendar internals to match your aesthetic */}
-      <style jsx global>{`
-        .rbc-time-view {
-          border-radius: 8px;
-          border: 1px solid #e5e7eb;
-        }
-        .rbc-today {
-          background-color: #EDF9FD !important; /* ScholarSkylight */
-        }
-        .rbc-header {
-          padding: 8px;
-          font-weight: 600;
-          color: #4b5563;
-        }
-        .rbc-time-slot {
-          min-height: 20px; /* Adjusts grid row height */
-        }
-      `}</style>
     </div>
   );
 };
